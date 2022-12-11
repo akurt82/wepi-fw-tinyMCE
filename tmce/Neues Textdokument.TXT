@@ -1,0 +1,60 @@
+http://www.tinymce.com/tryit/menubutton.php
+
+<script type="text/javascript" src="<your installation path>/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea",
+    toolbar: "mybutton",
+    setup: function(editor) {
+        editor.addButton('mybutton', {
+            type: 'menubutton',
+            text: 'My button',
+            icon: false,
+            menu: [
+                {text: 'Menu item 1', onclick: function() {editor.insertContent('Menu item 1');}},
+                {text: 'Menu item 2', onclick: function() {editor.insertContent('Menu item 2');}}
+            ]
+        });
+    }
+});
+</script>
+
+<form method="post" action="somepage">
+    <textarea name="content" style="width:100%"></textarea>
+</form>
+
+
+-------------------------------------------------------------
+
+Multi-Level-DropDown
+
+http://tech-blog.maddyzone.com/javascript/add-multilevel-drop-tinymce-editor-menu-button
+
+-------------------------------------------------------------
+
+Fonts
+
+theme_advanced_fonts
+font_formats
+
+http://stackoverflow.com/questions/16582910/tinymce-4-theme-advanced-fonts
+
+http://www.tinymce.com/wiki.php/Configuration3x:theme_advanced_fonts
+
+-------------------------------------------------------------
+ 
+http://www.tinymce.com/tryit/custom_formats.php
+ 
+http://forums.kayako.com/threads/enable-javascript-in-tinymce-editor.37244/
+ 
+http://www.tinymce.com/forum/viewtopic.php%3Fid%3D4686
+ 
+-----------
+
+http://www.tinymce.com/forum/viewtopic.php?id=28477
+
+-----------
+
+Tab Panel mit reinem CSS
+
+http://www.mdawson.net/csstips/purecsstabs.php

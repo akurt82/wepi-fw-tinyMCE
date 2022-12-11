@@ -1,0 +1,1459 @@
+	/* ************************************************************************************************ *
+	 * ************************************************************************************************ *
+	 *
+	 * COPYRIGHT 5M-WARE 2015(c)
+	 * Abdülaziz Kurt, info@5m-ware.eu
+	 * www.5m-ware.eu
+	 *
+	 * ------------------------------------------------------------------------------------------------
+	 *
+	 * DESCRIPTION:
+	 *
+	 * tinyMCE- 5M-Ware-Plugins- Style-Definitions for the tinyMCE-On-The-Fly-Content and for the
+	 * realizing content-engine.
+	 *
+	 * ************************************************************************************************ *
+	 * ************************************************************************************************ */
+
+	/* ************************************************************************************************ *
+	 * Default- and Google-Font implementation
+	 * ************************************************************************************************ */
+	@font-face {
+		font-family:
+		andale mono,times,
+		arial,helvetica,sans-serif,
+		arial black,avant garde,
+		book antiqua,palatino,
+		comic sans ms,sans-serif,
+		courier new,courier,
+		georgia,palatino,
+		helvetica,
+		impact,chicago,
+		symbol,
+		tahoma,arial,helvetica,sans-serif,
+		terminal,monaco,
+		times new roman,times,
+		trebuchet ms,geneva,
+		verdana,geneva,
+		webdings,
+		wingdings,zapf dingbats, 
+		'Questrial',
+		'Rambla',
+		'Alfa Slab One',
+		'Source Sans Pro',
+		'Glegoo',
+		'Dosis',
+		'Abel',
+		'Patrick Hand',
+		'Fira Sans',
+		'Noto Sans',
+		'Droid Sans',
+		'Permanent Marker',
+		'Signika Negative',
+		'Lato',
+		'Arvo',
+		'Antic Slab',
+		'Cabin',
+		'Playfair Display',
+		'BenchNine',
+		'Sorts Mill Goudy',
+		'Economica',
+		'News Cycle',
+		'Lora',
+		'PT Sans',
+		'Poiret One',
+		'Armata',
+		'PT Sans Narrow',
+		'Ropa Sans',
+		'Cabin Condensed',
+		'Tinos',
+		'Philosopher',
+		'Istok Web',
+		'Arimo',
+		'Quicksand',
+		'Paytone One',
+		'Noto Serif',
+		'Ubuntu',
+		'Gudea',
+		'Marck Script',
+		'Droid Sans Mono', ,
+		'Josefin Sans',
+		'Bitter',
+		'PT Serif',
+		'Lobster',
+		'Kreon',
+		'Waiting for the Sunrise',
+		'Monda',
+		'Anton',
+		'Crete Round',
+		'Shadows Into Light',
+		'Rokkitt',
+		'Josefin Slab',
+		'Fredoka One',
+		'Russo One',
+		'Libre Baskerville',
+		'Sigmar One',
+		'Source Code Pro', ,
+		'Gloria Hallelujah',
+		'Fontdiner Swanky',
+		'Exo',
+		'Asap',
+		'Tangerine',
+		'Cantarell',
+		'Muli',
+		'Great Vibes',
+		'Alegreya Sans',
+		'Ubuntu Condensed',
+		'EB Garamond',
+		'Droid Serif',
+		'Open Sans',
+		'Roboto',
+		'Oswald',
+		'Slabo 27px',
+		'Roboto Condensed',
+		'Open Sans Condensed',
+		'Raleway',
+		'Montserrat',
+		'Roboto Slab',
+		'Merriweather',
+		'Titillium Web',
+		'Indie Flower',
+		'Yanone Kaffeesatz',
+		'Oxygen',
+		'Fjalla One',
+		'Hind',
+		'Vollkorn',
+		'Bree Serif',
+		'Inconsolata', ,
+		'Francois One',
+		'Signika',
+		'Nunito',
+		'Play',
+		'Archivo Narrow',
+		'Merriweather Sans',
+		'Cuprum',
+		'Maven Pro',
+		'Pacifico',
+		'Exo 2',
+		'Orbitron',
+		'Alegreya',
+		'Karla',
+		'Varela Round',
+		'PT Sans Caption',
+		'Dancing Script',
+		'Crimson Text',
+		'Pathway Gothic One',
+		'Abril Fatface',
+		'Patua One',
+		'Architects Daughter',
+		'Quattrocento Sans',
+		'Pontano Sans',
+		'Noticia Text',
+		'Sanchez',
+		'Bangers',
+		'Amatic SC',
+		'Kaushan Script',
+		'Courgette',
+		'Old Standard TT',
+		'Lobster Two',
+		'Cinzel',
+		'Archivo Black',
+		'Coming Soon',
+		'Ruda',
+		'Covered By Your Grace',
+		'Passion One',
+		'Hammersmith One',
+		'Pinyon Script',
+		'Cardo',
+		'Chewy',
+		'Playball',
+		'Varela',
+		'Comfortaa',
+		'Sintony',
+		'Righteous',
+		'Rock Salt',
+		'Changa One',
+		'Nobile',
+		'Satisfy',
+		'Bevan',
+		'Jura',
+		'Handlee',
+		'Amaranth',
+		'Playfair Display SC',
+		'Shadows Into Light Two',
+		'Quattrocento',
+		'Vidaloka',
+		'Scada',
+		'Molengo',
+		'Enriqueta',
+		'Special Elite',
+		'Actor',
+		'Luckiest Guy',
+		'Cookie',
+		'Source Serif Pro';
+		src: url('http://fonts.googleapis.com/css?family=Questrial|Rambla:400,700,400italic|Alfa+Slab+One|Source+Sans+Pro:200,300,400,700,200italic,300italic,400italic,700italic|Glegoo:400,700|Dosis:200,300,400,500,600,700|Abel|Patrick+Hand|Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic|Noto+Sans:400,700,400italic,700italic|Droid+Sans:400,700|Permanent+Marker|Signika+Negative:300,400,600,700|Lato:100,300,400,700,100italic,300italic,400italic,700italic|Arvo:400,700,400italic,700italic|Antic+Slab|Cabin:400,500,600,700,400italic,500italic,600italic,700italic|Playfair+Display:400,700,400italic,700italic|BenchNine:300,400,700|Sorts+Mill+Goudy:400,400italic|Economica:400,700,400italic,700italic|News+Cycle:400,700|Lora:400,700,400italic,700italic|PT+Sans:400,700,400italic,700italic|Poiret+One|Armata|PT+Sans+Narrow:400,700|Ropa+Sans:400,400italic|Cabin+Condensed:400,500,600,700|Tinos:400,700,400italic,700italic|Philosopher:400,700,400italic,700italic|Istok+Web:400,700,400italic,700italic|Arimo:400,700,400italic,700italic|Quicksand:400,700|Paytone+One|Noto+Serif:400,700,400italic,700italic|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Gudea:400,700,400italic|Marck+Script|Droid+Sans+Mono|Josefin+Sans:300,400,600,700,300italic,400italic,600italic,700italic|Bitter:400,700,400italic|PT+Serif:400,700,400italic,700italic|Lobster|Kreon:300,400,700|Waiting+for+the+Sunrise|Monda:400,700|Anton|Crete+Round:400,400italic|Shadows+Into+Light|Rokkitt:400,700|Josefin+Slab:400,600,700,400italic,600italic,700italic|Fredoka+One|Russo+One|Libre+Baskerville:400,700,400italic|Sigmar+One|Source+Code+Pro:200,300,400,500,600,700,900|Gloria+Hallelujah|Fontdiner+Swanky|Exo:200,300,400,500,600,700,200italic,300italic,400italic,500italic,600italic,700italic|Asap:400,700,400italic,700italic|Tangerine:400,700|Cantarell:400,700,400italic,700italic|Muli:300,400,300italic,400italic|Great+Vibes|Alegreya+Sans:400,500,700,400italic,500italic,700italic|Ubuntu+Condensed|EB+Garamond|Droid+Serif:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300|Roboto:400,300,300italic,400italic,500,500italic,700,700italic|Oswald:400,300,700|Slabo+27px|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Open+Sans+Condensed:300,700,300italic|Raleway:400,100,200,300,500,600,700|Montserrat:400,700|Roboto+Slab:400,300,700|Merriweather:400,300,300italic,400italic,700,700italic|Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic|Indie+Flower|Yanone+Kaffeesatz:400,200,300,700|Oxygen:400,300,700|Fjalla+One|Hind:400,300,500,600,700|Vollkorn:400italic,400|Bree+Serif|Inconsolata|Francois+One|Signika|Nunito:400,300,700|Play:400,700|Archivo+Narrow:400,400italic,700,700italic|Merriweather+Sans:400,300,300italic,400italic,700,700italic|Cuprum:400,400italic,700,700italic|Maven+Pro:400,500,700,900|Pacifico|Exo+2:400,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic|Orbitron:400,500,700,900|Alegreya:400italic,700italic,900italic,400,700,900|Karla:400,400italic,700,700italic|Varela+Round|PT+Sans+Caption:400,700|Dancing+Script:400,700|Crimson+Text:400,400italic,600,600italic,700,700italic|Pathway+Gothic+One|Abril+Fatface|Patua+One|Architects+Daughter|Quattrocento+Sans:400,400italic,700,700italic|Pontano+Sans|Noticia+Text:400,400italic,700,700italic|Sanchez|Bangers|Amatic+SC:400,700|Kaushan+Script|Courgette|Old+Standard+TT:400,400italic,700|Lobster+Two:400,400italic,700,700italic|Cinzel:400,700|Archivo+Black|Coming+Soon|Ruda:400,700|Covered+By+Your+Grace|Passion+One:400,700|Hammersmith+One|Pinyon+Script|Cardo:400,400italic,700|Chewy|Playball|Varela|Comfortaa:400,300,700|Sintony:400,700|Righteous|Rock+Salt|Changa+One:400,400italic|Nobile:400,400italic,700,700italic|Satisfy|Bevan|Jura:400,300,500,600|Handlee|Amaranth:400,400italic,700,700italic|Playfair+Display+SC:400,700,700italic|Shadows+Into+Light+Two|Quattrocento:400,700|Vidaloka|Scada:400italic,700italic,400,700|Molengo|Enriqueta:400,700|Special+Elite|Actor|Luckiest+Guy|Cookie|Source+Serif+Pro:400,600,700&subset=latin,latin-ext,cyrillic-ext,greek,cyrillic,greek-ext');
+	}
+
+	/* ************************************************************************************************ *
+	 * Image with border
+	 * ************************************************************************************************ */
+	.borderImage, .rahmenBild, .cerceveliResim {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+	}
+
+	/* ************************************************************************************************ *
+	 * Image with rounded border
+	 * ************************************************************************************************ */
+	.borderImageRounded, .rahmenBildGerundet, .cerceveliResimYuvarlakKenarli {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-khtml-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Image with around shadow and border
+	 * ************************************************************************************************ */
+	.borderImageShadowed, .rahmenBildSchattiert, .cerceveliResimGolgeli {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-moz-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-khtml-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-webkit-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+	}
+
+	/* ************************************************************************************************ *
+	 * Image with around shadow and rounded border
+	 * ************************************************************************************************ */
+	.borderImageRoundedShadowed, .rahmenBildGerundetSchattiert, .cerceveliResimYuvarlakKenarliGolgeli {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-khtml-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-moz-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-khtml-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-webkit-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+	}
+
+	/* ************************************************************************************************ *
+	 * Clickable image with border
+	 * ************************************************************************************************ */
+	.linkBorderImage, .linkRahmenBild, .linkCerceveliResim {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		cursor: pointer;
+	}
+
+	.linkBorderImage:hover, .linkRahmenBild:hover, .linkCerceveliResim:hover {
+		border: 2px solid rgb( 150, 150, 150 );
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Clickable image with rounded border
+	 * ************************************************************************************************ */
+	.linkBorderImageRounded, .linkRahmenBildGerundet, .LinkCerceveliResimYuvarlakKenarli {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-khtml-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		cursor: pointer;
+	}
+
+	.linkBorderImageRounded:hover, .linkRahmenBildGerundet:hover, .LinkCerceveliResimYuvarlakKenarli:hover {
+		border: 2px solid rgb( 150, 150, 150 );
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Clickable image with around shadow and border
+	 * ************************************************************************************************ */
+	.linkBorderImageShadowed, .linkRahmenBildSchattiert, .linkCerceveliResimGolgeli {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-moz-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-khtml-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-webkit-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		cursor: pointer;
+	}
+
+	.linkBorderImageShadowed:hover, .linkRahmenBildSchattiert:hover, .linkCerceveliResimGolgeli:hover {
+		border: 2px solid rgb( 150, 150, 150 );
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Clickable image with around shadow and rounded border
+	 * ************************************************************************************************ */
+	.linkBorderImageRoundedShadowed, .linkRahmenBildGerundetSchattiert, .linkCerceveliResimYuvarlakKenarliGolgeli {
+		border: 1px solid rgb( 200, 200, 200 );
+		padding: 1px;
+		background-color: #ffffff;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-khtml-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-moz-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-khtml-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-webkit-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		cursor: pointer;
+	}
+
+	.linkBorderImageRoundedShadowed:hover, .linkRahmenBildGerundetSchattiert:hover, .linkCerceveliResimYuvarlakKenarliGolgeli:hover {
+		border: 2px solid rgb( 150, 150, 150 );
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Corner distance from inside of the containing tag
+	 * ************************************************************************************************ */
+	  .padding5,  .abstand5,    .mesafe5 { padding:   5px; }
+	 .padding10,  .abstand10,  .mesafe10 { padding:  10px; }
+	 .padding15,  .abstand15,  .mesafe15 { padding:  15px; }
+	 .padding20,  .abstand20,  .mesafe20 { padding:  20px; }
+	 .padding25,  .abstand25,  .mesafe25 { padding:  25px; }
+	 .padding30,  .abstand30,  .mesafe30 { padding:  30px; }
+	 .padding35,  .abstand35,  .mesafe35 { padding:  35px; }
+	 .padding40,  .abstand40,  .mesafe40 { padding:  40px; }
+	 .padding45,  .abstand45,  .mesafe45 { padding:  45px; }
+	 .padding50,  .abstand50,  .mesafe50 { padding:  50px; }
+	 .padding55,  .abstand55,  .mesafe55 { padding:  55px; }
+	 .padding60,  .abstand60,  .mesafe60 { padding:  60px; }
+	 .padding65,  .abstand65,  .mesafe65 { padding:  65px; }
+	 .padding70,  .abstand70,  .mesafe70 { padding:  70px; }
+	 .padding75,  .abstand75,  .mesafe75 { padding:  75px; }
+	 .padding80,  .abstand80,  .mesafe80 { padding:  80px; }
+	 .padding85,  .abstand85,  .mesafe85 { padding:  85px; }
+	 .padding90,  .abstand90,  .mesafe90 { padding:  90px; }
+	 .padding95,  .abstand95,  .mesafe95 { padding:  95px; }
+	.padding100, .abstand100, .mesafe100 { padding: 100px; }
+
+	  .padding-left5,  .abstandLinks5,    .mesafeSol5 { padding-left:   5px; }
+	 .padding-left10,  .abstandLinks10,  .mesafeSol10 { padding-left:  10px; }
+	 .padding-left15,  .abstandLinks15,  .mesafeSol15 { padding-left:  15px; }
+	 .padding-left20,  .abstandLinks20,  .mesafeSol20 { padding-left:  20px; }
+	 .padding-left25,  .abstandLinks25,  .mesafeSol25 { padding-left:  25px; }
+	 .padding-left30,  .abstandLinks30,  .mesafeSol30 { padding-left:  30px; }
+	 .padding-left35,  .abstandLinks35,  .mesafeSol35 { padding-left:  35px; }
+	 .padding-left40,  .abstandLinks40,  .mesafeSol40 { padding-left:  40px; }
+	 .padding-left45,  .abstandLinks45,  .mesafeSol45 { padding-left:  45px; }
+	 .padding-left50,  .abstandLinks50,  .mesafeSol50 { padding-left:  50px; }
+	 .padding-left55,  .abstandLinks55,  .mesafeSol55 { padding-left:  55px; }
+	 .padding-left60,  .abstandLinks60,  .mesafeSol60 { padding-left:  60px; }
+	 .padding-left65,  .abstandLinks65,  .mesafeSol65 { padding-left:  65px; }
+	 .padding-left70,  .abstandLinks70,  .mesafeSol70 { padding-left:  70px; }
+	 .padding-left75,  .abstandLinks75,  .mesafeSol75 { padding-left:  75px; }
+	 .padding-left80,  .abstandLinks80,  .mesafeSol80 { padding-left:  80px; }
+	 .padding-left85,  .abstandLinks85,  .mesafeSol85 { padding-left:  85px; }
+	 .padding-left90,  .abstandLinks90,  .mesafeSol90 { padding-left:  90px; }
+	 .padding-left95,  .abstandLinks95,  .mesafeSol95 { padding-left:  95px; }
+	.padding-left100, .abstandLinks100, .mesafeSol100 { padding-left: 100px; }
+
+	  .paddingRight5,  .abstandRechts5,    .mesafeSag5 { padding-Right:   5px; }
+	 .paddingRight10,  .abstandRechts10,  .mesafeSag10 { padding-Right:  10px; }
+	 .paddingRight15,  .abstandRechts15,  .mesafeSag15 { padding-Right:  15px; }
+	 .paddingRight20,  .abstandRechts20,  .mesafeSag20 { padding-Right:  20px; }
+	 .paddingRight25,  .abstandRechts25,  .mesafeSag25 { padding-Right:  25px; }
+	 .paddingRight30,  .abstandRechts30,  .mesafeSag30 { padding-Right:  30px; }
+	 .paddingRight35,  .abstandRechts35,  .mesafeSag35 { padding-Right:  35px; }
+	 .paddingRight40,  .abstandRechts40,  .mesafeSag40 { padding-Right:  40px; }
+	 .paddingRight45,  .abstandRechts45,  .mesafeSag45 { padding-Right:  45px; }
+	 .paddingRight50,  .abstandRechts50,  .mesafeSag50 { padding-Right:  50px; }
+	 .paddingRight55,  .abstandRechts55,  .mesafeSag55 { padding-Right:  55px; }
+	 .paddingRight60,  .abstandRechts60,  .mesafeSag60 { padding-Right:  60px; }
+	 .paddingRight65,  .abstandRechts65,  .mesafeSag65 { padding-Right:  65px; }
+	 .paddingRight70,  .abstandRechts70,  .mesafeSag70 { padding-Right:  70px; }
+	 .paddingRight75,  .abstandRechts75,  .mesafeSag75 { padding-Right:  75px; }
+	 .paddingRight80,  .abstandRechts80,  .mesafeSag80 { padding-Right:  80px; }
+	 .paddingRight85,  .abstandRechts85,  .mesafeSag85 { padding-Right:  85px; }
+	 .paddingRight90,  .abstandRechts90,  .mesafeSag90 { padding-Right:  90px; }
+	 .paddingRight95,  .abstandRechts95,  .mesafeSag95 { padding-Right:  95px; }
+	.paddingRight100, .abstandRechts100, .mesafeSag100 { padding-Right: 100px; }
+
+	  .paddingTop5,  .abstandOben5,    .mesafeUst5 { padding-Top:   5px; }
+	 .paddingTop10,  .abstandOben10,  .mesafeUst10 { padding-Top:  10px; }
+	 .paddingTop15,  .abstandOben15,  .mesafeUst15 { padding-Top:  15px; }
+	 .paddingTop20,  .abstandOben20,  .mesafeUst20 { padding-Top:  20px; }
+	 .paddingTop25,  .abstandOben25,  .mesafeUst25 { padding-Top:  25px; }
+	 .paddingTop30,  .abstandOben30,  .mesafeUst30 { padding-Top:  30px; }
+	 .paddingTop35,  .abstandOben35,  .mesafeUst35 { padding-Top:  35px; }
+	 .paddingTop40,  .abstandOben40,  .mesafeUst40 { padding-Top:  40px; }
+	 .paddingTop45,  .abstandOben45,  .mesafeUst45 { padding-Top:  45px; }
+	 .paddingTop50,  .abstandOben50,  .mesafeUst50 { padding-Top:  50px; }
+	 .paddingTop55,  .abstandOben55,  .mesafeUst55 { padding-Top:  55px; }
+	 .paddingTop60,  .abstandOben60,  .mesafeUst60 { padding-Top:  60px; }
+	 .paddingTop65,  .abstandOben65,  .mesafeUst65 { padding-Top:  65px; }
+	 .paddingTop70,  .abstandOben70,  .mesafeUst70 { padding-Top:  70px; }
+	 .paddingTop75,  .abstandOben75,  .mesafeUst75 { padding-Top:  75px; }
+	 .paddingTop80,  .abstandOben80,  .mesafeUst80 { padding-Top:  80px; }
+	 .paddingTop85,  .abstandOben85,  .mesafeUst85 { padding-Top:  85px; }
+	 .paddingTop90,  .abstandOben90,  .mesafeUst90 { padding-Top:  90px; }
+	 .paddingTop95,  .abstandOben95,  .mesafeUst95 { padding-Top:  95px; }
+	.paddingTop100, .abstandOben100, .mesafeUst100 { padding-Top: 100px; }
+
+	  .paddingBottom5,  .abstandUnten5,    .mesageAlt5 { padding-Bottom:   5px; }
+	 .paddingBottom10,  .abstandUnten10,  .mesageAlt10 { padding-Bottom:  10px; }
+	 .paddingBottom15,  .abstandUnten15,  .mesageAlt15 { padding-Bottom:  15px; }
+	 .paddingBottom20,  .abstandUnten20,  .mesageAlt20 { padding-Bottom:  20px; }
+	 .paddingBottom25,  .abstandUnten25,  .mesageAlt25 { padding-Bottom:  25px; }
+	 .paddingBottom30,  .abstandUnten30,  .mesageAlt30 { padding-Bottom:  30px; }
+	 .paddingBottom35,  .abstandUnten35,  .mesageAlt35 { padding-Bottom:  35px; }
+	 .paddingBottom40,  .abstandUnten40,  .mesageAlt40 { padding-Bottom:  40px; }
+	 .paddingBottom45,  .abstandUnten45,  .mesageAlt45 { padding-Bottom:  45px; }
+	 .paddingBottom50,  .abstandUnten50,  .mesageAlt50 { padding-Bottom:  50px; }
+	 .paddingBottom55,  .abstandUnten55,  .mesageAlt55 { padding-Bottom:  55px; }
+	 .paddingBottom60,  .abstandUnten60,  .mesageAlt60 { padding-Bottom:  60px; }
+	 .paddingBottom65,  .abstandUnten65,  .mesageAlt65 { padding-Bottom:  65px; }
+	 .paddingBottom70,  .abstandUnten70,  .mesageAlt70 { padding-Bottom:  70px; }
+	 .paddingBottom75,  .abstandUnten75,  .mesageAlt75 { padding-Bottom:  75px; }
+	 .paddingBottom80,  .abstandUnten80,  .mesageAlt80 { padding-Bottom:  80px; }
+	 .paddingBottom85,  .abstandUnten85,  .mesageAlt85 { padding-Bottom:  85px; }
+	 .paddingBottom90,  .abstandUnten90,  .mesageAlt90 { padding-Bottom:  90px; }
+	 .paddingBottom95,  .abstandUnten95,  .mesageAlt95 { padding-Bottom:  95px; }
+	.paddingBottom100, .abstandUnten100, .mesageAlt100 { padding-Bottom: 100px; }
+
+	/* ************************************************************************************************ *
+	 * Corner distance from outside of the containing tag
+	 * ************************************************************************************************ */
+	  .margin5,  .auAbstand5,    .disMesafe5 { margin:   5px; }
+	 .margin10,  .auAbstand10,  .disMesafe10 { margin:  10px; }
+	 .margin15,  .auAbstand15,  .disMesafe15 { margin:  15px; }
+	 .margin20,  .auAbstand20,  .disMesafe20 { margin:  20px; }
+	 .margin25,  .auAbstand25,  .disMesafe25 { margin:  25px; }
+	 .margin30,  .auAbstand30,  .disMesafe30 { margin:  30px; }
+	 .margin35,  .auAbstand35,  .disMesafe35 { margin:  35px; }
+	 .margin40,  .auAbstand40,  .disMesafe40 { margin:  40px; }
+	 .margin45,  .auAbstand45,  .disMesafe45 { margin:  45px; }
+	 .margin50,  .auAbstand50,  .disMesafe50 { margin:  50px; }
+	 .margin55,  .auAbstand55,  .disMesafe55 { margin:  55px; }
+	 .margin60,  .auAbstand60,  .disMesafe60 { margin:  60px; }
+	 .margin65,  .auAbstand65,  .disMesafe65 { margin:  65px; }
+	 .margin70,  .auAbstand70,  .disMesafe70 { margin:  70px; }
+	 .margin75,  .auAbstand75,  .disMesafe75 { margin:  75px; }
+	 .margin80,  .auAbstand80,  .disMesafe80 { margin:  80px; }
+	 .margin85,  .auAbstand85,  .disMesafe85 { margin:  85px; }
+	 .margin90,  .auAbstand90,  .disMesafe90 { margin:  90px; }
+	 .margin95,  .auAbstand95,  .disMesafe95 { margin:  95px; }
+	.margin100, .auAbstand100, .disMesafe100 { margin: 100px; }
+
+	  .margin-left5,  .auAbstandLinks5,    .disMesafeSol5 { margin-left:   5px; }
+	 .margin-left10,  .auAbstandLinks10,  .disMesafeSol10 { margin-left:  10px; }
+	 .margin-left15,  .auAbstandLinks15,  .disMesafeSol15 { margin-left:  15px; }
+	 .margin-left20,  .auAbstandLinks20,  .disMesafeSol20 { margin-left:  20px; }
+	 .margin-left25,  .auAbstandLinks25,  .disMesafeSol25 { margin-left:  25px; }
+	 .margin-left30,  .auAbstandLinks30,  .disMesafeSol30 { margin-left:  30px; }
+	 .margin-left35,  .auAbstandLinks35,  .disMesafeSol35 { margin-left:  35px; }
+	 .margin-left40,  .auAbstandLinks40,  .disMesafeSol40 { margin-left:  40px; }
+	 .margin-left45,  .auAbstandLinks45,  .disMesafeSol45 { margin-left:  45px; }
+	 .margin-left50,  .auAbstandLinks50,  .disMesafeSol50 { margin-left:  50px; }
+	 .margin-left55,  .auAbstandLinks55,  .disMesafeSol55 { margin-left:  55px; }
+	 .margin-left60,  .auAbstandLinks60,  .disMesafeSol60 { margin-left:  60px; }
+	 .margin-left65,  .auAbstandLinks65,  .disMesafeSol65 { margin-left:  65px; }
+	 .margin-left70,  .auAbstandLinks70,  .disMesafeSol70 { margin-left:  70px; }
+	 .margin-left75,  .auAbstandLinks75,  .disMesafeSol75 { margin-left:  75px; }
+	 .margin-left80,  .auAbstandLinks80,  .disMesafeSol80 { margin-left:  80px; }
+	 .margin-left85,  .auAbstandLinks85,  .disMesafeSol85 { margin-left:  85px; }
+	 .margin-left90,  .auAbstandLinks90,  .disMesafeSol90 { margin-left:  90px; }
+	 .margin-left95,  .auAbstandLinks95,  .disMesafeSol95 { margin-left:  95px; }
+	.margin-left100, .auAbstandLinks100, .disMesafeSol100 { margin-left: 100px; }
+
+	  .marginRight5,  .auAbstandRechts5,    .disMesafeSag5 { margin-Right:   5px; }
+	 .marginRight10,  .auAbstandRechts10,  .disMesafeSag10 { margin-Right:  10px; }
+	 .marginRight15,  .auAbstandRechts15,  .disMesafeSag15 { margin-Right:  15px; }
+	 .marginRight20,  .auAbstandRechts20,  .disMesafeSag20 { margin-Right:  20px; }
+	 .marginRight25,  .auAbstandRechts25,  .disMesafeSag25 { margin-Right:  25px; }
+	 .marginRight30,  .auAbstandRechts30,  .disMesafeSag30 { margin-Right:  30px; }
+	 .marginRight35,  .auAbstandRechts35,  .disMesafeSag35 { margin-Right:  35px; }
+	 .marginRight40,  .auAbstandRechts40,  .disMesafeSag40 { margin-Right:  40px; }
+	 .marginRight45,  .auAbstandRechts45,  .disMesafeSag45 { margin-Right:  45px; }
+	 .marginRight50,  .auAbstandRechts50,  .disMesafeSag50 { margin-Right:  50px; }
+	 .marginRight55,  .auAbstandRechts55,  .disMesafeSag55 { margin-Right:  55px; }
+	 .marginRight60,  .auAbstandRechts60,  .disMesafeSag60 { margin-Right:  60px; }
+	 .marginRight65,  .auAbstandRechts65,  .disMesafeSag65 { margin-Right:  65px; }
+	 .marginRight70,  .auAbstandRechts70,  .disMesafeSag70 { margin-Right:  70px; }
+	 .marginRight75,  .auAbstandRechts75,  .disMesafeSag75 { margin-Right:  75px; }
+	 .marginRight80,  .auAbstandRechts80,  .disMesafeSag80 { margin-Right:  80px; }
+	 .marginRight85,  .auAbstandRechts85,  .disMesafeSag85 { margin-Right:  85px; }
+	 .marginRight90,  .auAbstandRechts90,  .disMesafeSag90 { margin-Right:  90px; }
+	 .marginRight95,  .auAbstandRechts95,  .disMesafeSag95 { margin-Right:  95px; }
+	.marginRight100, .auAbstandRechts100, .disMesafeSag100 { margin-Right: 100px; }
+
+	  .marginTop5,  .auAbstandOben5,    .disMesafeUst5 { margin-Top:   5px; }
+	 .marginTop10,  .auAbstandOben10,  .disMesafeUst10 { margin-Top:  10px; }
+	 .marginTop15,  .auAbstandOben15,  .disMesafeUst15 { margin-Top:  15px; }
+	 .marginTop20,  .auAbstandOben20,  .disMesafeUst20 { margin-Top:  20px; }
+	 .marginTop25,  .auAbstandOben25,  .disMesafeUst25 { margin-Top:  25px; }
+	 .marginTop30,  .auAbstandOben30,  .disMesafeUst30 { margin-Top:  30px; }
+	 .marginTop35,  .auAbstandOben35,  .disMesafeUst35 { margin-Top:  35px; }
+	 .marginTop40,  .auAbstandOben40,  .disMesafeUst40 { margin-Top:  40px; }
+	 .marginTop45,  .auAbstandOben45,  .disMesafeUst45 { margin-Top:  45px; }
+	 .marginTop50,  .auAbstandOben50,  .disMesafeUst50 { margin-Top:  50px; }
+	 .marginTop55,  .auAbstandOben55,  .disMesafeUst55 { margin-Top:  55px; }
+	 .marginTop60,  .auAbstandOben60,  .disMesafeUst60 { margin-Top:  60px; }
+	 .marginTop65,  .auAbstandOben65,  .disMesafeUst65 { margin-Top:  65px; }
+	 .marginTop70,  .auAbstandOben70,  .disMesafeUst70 { margin-Top:  70px; }
+	 .marginTop75,  .auAbstandOben75,  .disMesafeUst75 { margin-Top:  75px; }
+	 .marginTop80,  .auAbstandOben80,  .disMesafeUst80 { margin-Top:  80px; }
+	 .marginTop85,  .auAbstandOben85,  .disMesafeUst85 { margin-Top:  85px; }
+	 .marginTop90,  .auAbstandOben90,  .disMesafeUst90 { margin-Top:  90px; }
+	 .marginTop95,  .auAbstandOben95,  .disMesafeUst95 { margin-Top:  95px; }
+	.marginTop100, .auAbstandOben100, .disMesafeUst100 { margin-Top: 100px; }
+
+	  .marginBottom5,  .auAbstandUnten5,    .disdisMesafeAlt5 { margin-Bottom:   5px; }
+	 .marginBottom10,  .auAbstandUnten10,  .disdisMesafeAlt10 { margin-Bottom:  10px; }
+	 .marginBottom15,  .auAbstandUnten15,  .disdisMesafeAlt15 { margin-Bottom:  15px; }
+	 .marginBottom20,  .auAbstandUnten20,  .disdisMesafeAlt20 { margin-Bottom:  20px; }
+	 .marginBottom25,  .auAbstandUnten25,  .disdisMesafeAlt25 { margin-Bottom:  25px; }
+	 .marginBottom30,  .auAbstandUnten30,  .disdisMesafeAlt30 { margin-Bottom:  30px; }
+	 .marginBottom35,  .auAbstandUnten35,  .disdisMesafeAlt35 { margin-Bottom:  35px; }
+	 .marginBottom40,  .auAbstandUnten40,  .disdisMesafeAlt40 { margin-Bottom:  40px; }
+	 .marginBottom45,  .auAbstandUnten45,  .disdisMesafeAlt45 { margin-Bottom:  45px; }
+	 .marginBottom50,  .auAbstandUnten50,  .disdisMesafeAlt50 { margin-Bottom:  50px; }
+	 .marginBottom55,  .auAbstandUnten55,  .disdisMesafeAlt55 { margin-Bottom:  55px; }
+	 .marginBottom60,  .auAbstandUnten60,  .disdisMesafeAlt60 { margin-Bottom:  60px; }
+	 .marginBottom65,  .auAbstandUnten65,  .disdisMesafeAlt65 { margin-Bottom:  65px; }
+	 .marginBottom70,  .auAbstandUnten70,  .disdisMesafeAlt70 { margin-Bottom:  70px; }
+	 .marginBottom75,  .auAbstandUnten75,  .disdisMesafeAlt75 { margin-Bottom:  75px; }
+	 .marginBottom80,  .auAbstandUnten80,  .disdisMesafeAlt80 { margin-Bottom:  80px; }
+	 .marginBottom85,  .auAbstandUnten85,  .disdisMesafeAlt85 { margin-Bottom:  85px; }
+	 .marginBottom90,  .auAbstandUnten90,  .disdisMesafeAlt90 { margin-Bottom:  90px; }
+	 .marginBottom95,  .auAbstandUnten95,  .disdisMesafeAlt95 { margin-Bottom:  95px; }
+	.marginBottom100, .auAbstandUnten100, .disdisMesafeAlt100 { margin-Bottom: 100px; }
+
+	/* ************************************************************************************************ *
+	 * Text with dark shadow
+	 * ************************************************************************************************ */
+	.textShadowed, .textSchattiert, .metinGolgeli { 
+		text-shadow: 0px 0px 5px rgba(0,0,0,0.35);
+		-moz-text-shadow: 0px 0px 5px rgba(0,0,0,0.35);
+		-khtml-text-shadow: 0px 0px 5px rgba(0,0,0,0.35);
+		-webkit-text-shadow: 0px 0px 5px rgba(0,0,0,0.35);
+	}
+
+	/* ************************************************************************************************ *
+	 * Text with light shadow
+	 * ************************************************************************************************ */
+	.textShadowedLight, .textSchattiertHell, .metinGolgeliAcik { 
+		text-shadow: 0px 0px 5px rgba(255,255,255,0.35);
+		-moz-text-shadow: 0px 0px 5px rgba(255,255,255,0.35);
+		-khtml-text-shadow: 0px 0px 5px rgba(255,255,255,0.35);
+		-webkit-text-shadow: 0px 0px 5px rgba(255,255,255,0.35);
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with solid line
+	 * ************************************************************************************************ */
+	.separator1, .trenner1, .ayirici1 {
+		border-top: 1px solid #000;
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with dashed line
+	 * ************************************************************************************************ */
+	.separator2, .trenner2, .ayirici2 {
+		border-top: 1px dashed #000;
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with dotted line
+	 * ************************************************************************************************ */
+	.separator3, .trenner3, .ayirici3 {
+		border-top: 1px dotted #000;
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with solid line
+	 * ************************************************************************************************ */
+	.separator1l, .trenner1l, .ayirici1l {
+		border-left: 1px solid #000;
+		padding-left: 10px;
+		margin-left: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with dashed line
+	 * ************************************************************************************************ */
+	.separator2l, .trenner2l, .ayirici2l {
+		border-left: 1px dashed #000;
+		padding-left: 10px;
+		margin-left: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with dotted line
+	 * ************************************************************************************************ */
+	.separator3l, .trenner3l, .ayirici3l {
+		border-left: 1px dotted #000;
+		padding-left: 10px;
+		margin-left: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with solid line
+	 * ************************************************************************************************ */
+	.separator1r, .trenner1r, .ayirici1r {
+		border-right: 1px solid #000;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with dashed line
+	 * ************************************************************************************************ */
+	.separator2r, .trenner2r, .ayirici2r {
+		border-right: 1px dashed #000;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Separating container-tag with dotted line
+	 * ************************************************************************************************ */
+	.separator3r, .trenner3r, .ayirici3r {
+		border-right: 1px dotted #000;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 1
+	 * ************************************************************************************************ */
+	.table1, .tabelle1, .tablo1 {
+		border-spacing: 0px;
+	}
+
+	.table1 td, .tabelle1 td, .tablo1 td,
+	.table1 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		padding: 0px;
+	}
+
+	.table1l td, .tabelle1l td, .tablo1l td,
+	.table1l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		padding: 0px;
+	}
+
+	.table1c td, .tabelle1c td, .tablo1c td,
+	.table1c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		padding: 0px;
+	}
+
+	.table1r td, .tabelle1r td, .tablo1r td,
+	.table1r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 2
+	 * ************************************************************************************************ */
+	.table2, .tabelle2, .tablo2 {
+		border-spacing: 0px;
+	}
+
+	.table2 td, .tabelle1 td, .tablo1 td,
+	.table2 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		border-bottom: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table2l td, .tabelle1l td, .tablo1l td,
+	.table2l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		border-bottom: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table2c td, .tabelle1c td, .tablo1c td,
+	.table2c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		border-bottom: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table2r td, .tabelle1r td, .tablo1r td,
+	.table2r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		border-bottom: 1px solid #000;
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 3
+	 * ************************************************************************************************ */
+	.table3, .tabelle3, .tablo3 {
+		border-spacing: 0px;
+	}
+
+	.table3 td, .tabelle1 td, .tablo1 td,
+	.table3 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		border-bottom: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table3l td, .tabelle1l td, .tablo1l td,
+	.table3l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		border-bottom: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table3c td, .tabelle1c td, .tablo1c td,
+	.table3c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		border-bottom: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table3r td, .tabelle1r td, .tablo1r td,
+	.table3r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		border-bottom: 1px dashed #000;
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 4
+	 * ************************************************************************************************ */
+	.table4, .table4l, .table4c, .table4r {
+		border-left: 1px solid #000;
+		border-spacing: 0px;
+	}
+
+	.table4 td, .tabelle1 td, .tablo1 td,
+	.table4 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table4l td, .tabelle1l td, .tablo1l td,
+	.table4l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table4c td, .tabelle1c td, .tablo1c td,
+	.table4c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table4r td, .tabelle1r td, .tablo1r td,
+	.table4r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 5
+	 * ************************************************************************************************ */
+	.table5, .table5l, .table5c, .table5r {
+		border-left: 1px solid #000;
+		border-spacing: 0px;
+	}
+
+	.table5 td, .tabelle1 td, .tablo1 td,
+	.table5 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table5l td, .tabelle1l td, .tablo1l td,
+	.table5l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table5c td, .tabelle1c td, .tablo1c td,
+	.table5c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table5r td, .tabelle1r td, .tablo1r td,
+	.table5r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 6
+	 * ************************************************************************************************ */
+	.table6, .table6l, .table6c, .table6r {
+		border-top: 1px solid #000;
+		border-left: 1px solid #000;
+		border-spacing: 0px;
+	}
+
+	.table6 td, .tabelle1 td, .tablo1 td,
+	.table6 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table6l td, .tabelle1l td, .tablo1l td,
+	.table6l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table6c td, .tabelle1c td, .tablo1c td,
+	.table6c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	.table6r td, .tabelle1r td, .tablo1r td,
+	.table6r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+		padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Table style 7
+	 * ************************************************************************************************ */
+	.table7, .table7l, .table7c, .table7r {
+		border-top: 1px dashed #000;
+		border-left: 1px dashed #000;
+		border-spacing: 0px;
+	}
+
+	.table7 td, .tabelle1 td, .tablo1 td,
+	.table7 th, .tabelle1 th, .tablo1 th {
+		vertical-align: top;
+		border-bottom: 1px dashed #000;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table7l td, .tabelle1l td, .tablo1l td,
+	.table7l th, .tabelle1l th, .tablo1l th {
+		vertical-align: top;
+		text-align: left;
+		border-bottom: 1px dashed #000;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table7c td, .tabelle1c td, .tablo1c td,
+	.table7c th, .tabelle1c th, .tablo1c th {
+		vertical-align: top;
+		text-align: center;
+		border-bottom: 1px dashed #000;
+		border-right: 1px dashed #000;
+		padding: 0px;
+	}
+
+	.table7r td, .tabelle1r td, .tablo1r td,
+	.table7r th, .tabelle1r th, .tablo1r th {
+		vertical-align: top;
+		text-align: right;
+		border-bottom: 1px dashed #000;
+		border-right: 1px dashed #000;
+			padding: 0px;
+	}
+
+	/* ************************************************************************************************ *
+	 * Default table with vertical-alignment in top-mode
+	 * ************************************************************************************************ */
+	table {
+		border-spacing: 0px;
+		padding: 0px;
+	}
+
+	table td, table th {
+		vertical-align: top;
+		padding: 0px;
+		
+	}
+
+	/* ************************************************************************************************ *
+	 * Container-Tags with limited-height size and a scroller to scroll the content. Possible heights
+	 * 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600
+	 * ************************************************************************************************ */
+	.field100, .feld100, .alan100 {
+		height: 100px;
+		overflow: auto;
+	}
+
+	.field150, .feld150, .alan150 {
+		height: 150px;
+		overflow: auto;
+	}
+
+	.field200, .feld200, .alan200 {
+		height: 200px;
+		overflow: auto;
+	}
+
+	.field250, .feld250, .alan250 {
+		height: 250px;
+		overflow: auto;
+	}
+
+	.field300, .feld300, .alan300 {
+		height: 300px;
+		overflow: auto;
+	}
+
+	.field350, .feld350, .alan350 {
+		height: 350px;
+		overflow: auto;
+	}
+
+	.field400, .feld400, .alan400 {
+		height: 400px;
+		overflow: auto;
+	}
+
+	.field450, .feld450, .alan450 {
+		height: 450px;
+		overflow: auto;
+	}
+
+	.field500, .feld500, .alan500 {
+		height: 500px;
+		overflow: auto;
+	}
+
+	.field550, .feld550, .alan550 {
+		height: 550px;
+		overflow: auto;
+	}
+
+	.field600, .feld600, .alan600 {
+		height: 600px;
+		overflow: auto;
+	}
+
+	.field100y, .feld100y, .alan100y {
+		height: 100px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field150y, .feld150y, .alan150y {
+		height: 150px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field200y, .feld200y, .alan200y {
+		height: 200px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field250y, .feld250y, .alan250y {
+		height: 250px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field300y, .feld300y, .alan300y {
+		height: 300px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field350y, .feld350y, .alan350y {
+		height: 350px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field400y, .feld400y, .alan400y {
+		height: 400px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field450y, .feld450y, .alan450y {
+		height: 450px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field500y, .feld500y, .alan500y {
+		height: 500px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field550y, .feld550y, .alan550y {
+		height: 550px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field600y, .feld600y, .alan600y {
+		height: 600px;
+		overflow-x: hidden; overflow-y: auto;
+	}
+
+	.field100x, .feld100x, .alan100x {
+		height: 100px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field150x, .feld150x, .alan150x {
+		height: 150px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field200x, .feld200x, .alan200x {
+		height: 200px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field250x, .feld250x, .alan250x {
+		height: 250px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field300x, .feld300x, .alan300x {
+		height: 300px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field350x, .feld350x, .alan350x {
+		height: 350px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field400x, .feld400x, .alan400x {
+		height: 400px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field450x, .feld450x, .alan450x {
+		height: 450px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field500x, .feld500x, .alan500x {
+		height: 500px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field550x, .feld550x, .alan550x {
+		height: 550px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	.field600x, .feld600x, .alan600x {
+		height: 600px;
+		overflow-y: hidden; overflow-x: auto;
+	}
+
+	/* ************************************************************************************************ *
+	 * Container-Tag with around shadow
+	 * ************************************************************************************************ */
+	.boxShadowed, .boxSchattiert, .kutuGolgeli {
+		box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-moz-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-khtml-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-webkit-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+	}
+
+	/* ************************************************************************************************ *
+	 * Container-Tag with around shadow and rounded corner
+	 * ************************************************************************************************ */
+	.boxRoundedShadowed, .boxRoundedSchattiert, .kutuRoundedGolgeli {
+		border-radius: 8px; -moz-border-radius: 8px;
+		-khtml-border-radius: 8px; -webkit-border-radius: 8px;
+		box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-moz-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-khtml-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+		-webkit-box-shadow: 0px 0px 6px rgba(40,40,40,0.55);
+	}
+
+	/* ************************************************************************************************ *
+	 * Sidebar Navigation Type Greyscale-Style
+	 * 
+	 * Bitte mehrere Einfügen, mit Bildern und welche mit nur Farben, bei Farben mit flachem und
+	 * raised-Style.
+	 *
+	 * Farben:
+	 * grayscale, gray, silver, silver_dark, silver_light, blue, blue_dark, blue_light, blue_motion,
+	 * blue_see, blue_sky, green, green_dark, green_light, green_forest, green_woods, green_mix,
+	 * yellow, yellow_dark, yellow_light, gold, black, black_motion, cyan, cyan_dark, cyan_light,
+	 * orange*, red*, lila*, magenta*, white*, brown*, ...
+	 * ************************************************************************************************ */
+	.sidebar_navigation {
+	
+	}
+
+	.sidebar_navigation  ul li {
+	
+	}
+
+	.sidebar_navigation  ul li {
+	
+	}
+
+	.sidebar_navigation  ul li a:link, .sidebar_navigation li a:visited {
+	
+	}
+
+	.sidebar_navigation  ul li a:hover, .sidebar_navigation li a:active {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Div-Tag mit einem Hintergrundbild. Sie kann wunderbar in TH, TD Tags untergeordnet werden,
+	 * um einen effektvollen Durchzug zu realisieren. Besitzt einen Standard-Padding von 4px. Diesen
+	 * Tag gibt es in verschiedenen Ausführungen. Es gibt diesen mit und ohne gerundeten Ecken.
+	 * bei gerundeten Ecken = Komplett, nur oben, nur unten nur links, nur rechts.
+	 * ************************************************************************************************ */
+	.backstyle_01 {
+		line-height: 32px;
+		background:  url() repeat-x center left;
+		height:      32px;
+		padding:     4px;
+		overflow:    hidden;
+	}
+
+	/* ************************************************************************************************ *
+	 * Div-Tag mit einem Hintergrund-Bild nur bei repeat-x für den oberen Bereich und einer Trennlinie.
+	 * Erzeugt so eine Art Abtrennungs- und Neubox nach unten hin. Auch von diesem gibt es viele
+	 * Ausführungen.
+	 * ************************************************************************************************ */
+	 .separated_content_01 {
+	 
+	 }
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe Button styles
+	 * ************************************************************************************************ */
+	.button_01 {
+	
+	}
+	.button_01:hover {
+	
+	}
+	.button_01:active {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe Headline styles
+	 * ************************************************************************************************ */
+	.headline_01 {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von Hypertext-Link styles
+	 * ************************************************************************************************ */
+	.link_01:link, .link_01:visited {
+	
+	}
+	.link_01:hover, .link_01:active {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von InputBox styles
+	 * ************************************************************************************************ */
+	.input_01 {
+
+	}
+	.input_01:hover, .input_01:active, .input_01:focus {
+
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von TextArea styles
+	 * ************************************************************************************************ */
+	.textbox_01 {
+
+	}
+	.textbox_01:hover, .textbox_01:active, .textbox_01:focus {
+
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von Listbox und Combobox styles, beides mit DIV und ul/li einzufügen. Die ComboBoxen
+	 * Werden zudem mit JavaScript im Hintergrund zum Auf- und Zuklappen bewegt.
+	 * ************************************************************************************************ */
+	 .list_01, .combo_01 {
+	 
+	 }
+	 .combo_01 .popup {
+	 
+	 }
+	 .list_01 ul li, .combo_01 .popup ul li {
+	 
+	 }
+	 .list_01 ul li a:link, .list_01 ul li a:visited, .combo_01 .popup ul li a:link, .combo_01 .popup ul li a:visited {
+	 
+	 }
+	 .list_01 ul li:hover, .combo_01 .popup ul li:hover {
+	 
+	 }
+	 .list_01 ul li a:hover, .combo_01 .popup ul li a:hover {
+	 
+	 }
+	 .list_01 ul li:active, .combo_01 .popup ul li:active {
+	 
+	 }
+	 .list_01 ul li a:active, .combo_01 .popup ul li a:active {
+	 
+	 }
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von Begriff-ToolTip styles. (Ein Word oder ein Textstück wird mit einem Span von
+	 * dieser Klasse definiert über ein Plugin. Ein versteckter DIV ist auch dabei und dient als
+	 * ToolTip beim Drüberrollen des Mauszeigers. Von diesem Tag gibt es auch verschiedene Ausführungen.
+	 * Anzeige via JavaScript um falt-, transparenz- effekte oder effektloses Anzeigen zu realisieren.)
+	 * ************************************************************************************************ */
+	.tooltip_01 {
+	
+	}
+	.tooltip_01 .popup {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von Slide-Tab styles. (mit JavaScript realisiert mit verschiedenen Ausführungen)
+	 * ************************************************************************************************ */
+	.slidetab_01 {
+	
+	}
+	.slidetab_01 .header {
+	
+	}
+	.slidetab_01 .header:hover {
+	
+	}
+	.slidetab_01 .header:active {
+	
+	}
+	.slidetab_01 .content {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Eine Reihe von Tab-Panel styles. (Mit JavaScript realisiert mit verschiedenen Ausführungen)
+	 * ************************************************************************************************ */
+	.tabs_01 {
+	
+	}
+	.tabs_01 .selected {
+	
+	}
+	.tabs_01 .item {
+	
+	}
+	.tabs_01 .item:hover {
+	
+	}
+	.tabs_01 .item:active {
+	
+	}
+	.tabs_01 .content {
+	
+	}
+
+	/* ************************************************************************************************ *
+	 * Verschiedene Sorten des DatenBox-Plugins in verschiedenen Farben und mit dem Titel-Feld mal
+	 * onTop, mal onBottom, mal onLeft, mal onRight, dann onTopBottom, onTopLeft, und Varianten mit
+	 * TH-HeaderStyle, TD-Default
+	 * ************************************************************************************************ */
+	 .databox_01 {
+	 
+	 }
+	 .databox_01 .header {
+	 
+	 }
+	 .databox_01 .content {
+	 
+	 }
+
+	/* ************************************************************************************************ *
+	 * Toolbar in verschiedenen Ausführungen, in Vertikaler und Horizontaler Form. Die Popups werden
+	 * mit JavaScript realisiert.
+	 * ************************************************************************************************ */
+	 .toolbar_01 {
+	 
+	 }
+	 .toolbar_01 .item {
+	 
+	 }
+	 .toolbar_01 .item:hover {
+	 
+	 }
+	 .toolbar_01 .item:active {
+	 
+	 }
+	 .toolbar_01 .separator {
+	 
+	 }
+	 .toolbar_01 .popup {
+	 
+	 }
+	 .toolbar_01 .popup .item {
+	 
+	 }
+	 .toolbar_01 .popup .item:hover {
+	 
+	 }
+	 .toolbar_01 .popup .item:active {
+	 
+	 }
+	 .toolbar_01 .popup .separator {
+	 
+	 }
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+/* Set the size and font of the tab widget */
+.tabGroup {
+    font: 10pt arial, verdana;
+    width: 100%;
+    height: auto;
+}
+ 
+/* Configure the radio buttons to hide off screen */
+.tabGroup > input[type="radio"] {
+    position: absolute;
+    left:-100px;
+    top:-100px;
+}
+ 
+/* Configure labels to look like tabs */
+.tabGroup > input[type="radio"] + label {
+    /* inline-block such that the label can be given dimensions */
+    display: inline-block;
+ 
+    /* A nice curved border around the tab */
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+     
+    /* the bottom border is handled by the tab content div */
+    border-bottom: 0;
+ 
+    /* Padding around tab text */
+    padding: 5px 10px;
+ 
+    /* Set the background color to default gray (non-selected tab) */
+    background-color:#ddd;
+}
+ 
+/* Focused tabs need to be highlighted as such */
+.tabGroup > input[type="radio"]:focus + label {
+    border:1px dashed black;
+}
+ 
+/* Checked tabs must be white with the bottom border removed */
+.tabGroup > input[type="radio"]:checked + label {
+    background-color:white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+ 
+/* The tab content must fill the widgets size and have a nice border */
+.tabGroup > div {
+    display: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 10px;
+    height: 100%;
+    overflow: auto;
+
+    box-shadow: 0 0 5px rgba(50,50,50,0.20);
+    -moz-box-shadow: 0 0 5px rgba(50,50,50,0.20);
+    -webkit-box-shadow: 0 0 5px rgba(50,50,50,0.20);
+
+    border-radius: 0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    -webkit-border-radius: 0 5px 5px 5px;
+}
+ 
+/* This matchs tabs displaying to thier associated radio inputs */
+.tab1:checked ~ .tab1, .tab2:checked ~ .tab2, .tab3:checked ~ .tab3,
+.tab4:checked ~ .tab4, .tab5:checked ~ .tab5, .tab6:checked ~ .tab6,
+.tab7:checked ~ .tab7, .tab8:checked ~ .tab8, .tab9:checked ~ .tab9,
+.tab10:checked ~ .tab10 {
+    display: block;
+}
+
+
+
+
+
+
